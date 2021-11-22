@@ -1,8 +1,9 @@
 name: diplodatos-graphs
 channels:
   - conda-forge
+  - giuliorossetti
 dependencies:
-  - python=3.7
+  - python=3.8
   - numpy
   - pandas
   - matplotlib
@@ -11,4 +12,6 @@ dependencies:
   - nltk
   - networkx
   - wordcloud
-  - clib
+  - pip
+  - pip:
+    - cdlib
